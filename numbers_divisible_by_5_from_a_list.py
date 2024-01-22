@@ -6,3 +6,6 @@ number_list.append('33')
 number_list.append('46')
 number_list.append('55')
 print(number_list)
+
+if number_list % 5 == 0:
+    print (number_list)
