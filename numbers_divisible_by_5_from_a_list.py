@@ -8,9 +8,8 @@ number_list.append(55)
 print(number_list)
 
 given_list_len = 0
-
-while given_list_len <  len(number_list):
-    print (len(number_list))
-    if int(number_list) % 5 == 0:
-        print (number_list)
+print('the ones that are divisible by 5 are:')
+while given_list_len < len(number_list):
+    if number_list[given_list_len] % 5 == 0:
+        print (number_list[given_list_len])
     given_list_len += 1
