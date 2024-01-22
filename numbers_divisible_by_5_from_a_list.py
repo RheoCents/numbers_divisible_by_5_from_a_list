@@ -7,5 +7,5 @@ number_list.append(46)
 number_list.append(55)
 print(number_list)
 
-while number_list == /5:
+if number_list % 5 == 0:
     print (number_list)
