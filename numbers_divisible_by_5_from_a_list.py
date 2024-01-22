@@ -10,6 +10,7 @@ print(number_list)
 given_list_len = 0
 
 while given_list_len <  len(number_list):
+    print (len(number_list))
     if int(number_list) % 5 == 0:
         print (number_list)
-given_list_len += 1
+    given_list_len += 1
